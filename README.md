@@ -10,16 +10,24 @@ As Google Sites doesn't support Tables or Markdown, this script allows you to wr
 4. Paste the code below and replace Markdown with your own
 5. Save
 
-```javascript
+```html
 <script src="https://github.com/tutts/google-sites-markdown/blob/master/index.js"></script>
 
 <script>
 markdown`
+# Hello world
+
+Look I can write Markdown in Google Sites!
+
+> Can I now add tables?
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+Hooray! 🎉
 `
 </script> 
 ```
