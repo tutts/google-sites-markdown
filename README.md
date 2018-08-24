@@ -1,6 +1,6 @@
 # Google Sites Markdown
 
-As Google Sites doesn't support Tables or Markdown, this script allows you to write Markdown inside a HTML snippet, and reducing the amount of verbosity and styling HTML introduces, to make HTML snippets easier to read.
+As Google Sites doesn't support Tables or Markdown, this script allows you to write Markdown inside a HTML snippet within Google Sites. This reduces the amount of verbosity and styling HTML introduces, and making it easier to read.
 
 ## Usage
 
