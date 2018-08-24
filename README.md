@@ -11,7 +11,7 @@ As Google Sites doesn't support Tables or Markdown, this script allows you to wr
 5. Save
 
 ```javascript
-<script src="https://github.com/tutts/google-sites-markdown/blob/master/1.0.0.js"></script>
+<script src="https://github.com/tutts/google-sites-markdown/blob/master/index.js"></script>
 
 <script>
 markdown`
