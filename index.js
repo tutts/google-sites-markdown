@@ -77,7 +77,7 @@ function onDependencyLoaded(markdown) {
   // manage md
   const element = document.createElement("div");
   element.setAttribute("id", ROOT_NODE);
-  element.innerHTML = marked(markdown[0]);
+  element.innerHTML = marked.parse(markdown[0]);
   document.body.appendChild(element);
 }
 
