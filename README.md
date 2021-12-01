@@ -11,23 +11,42 @@ As Google Sites doesn't support Tables or Markdown, this script allows you to wr
 5. Save
 
 ```html
-<script src="//cdn.jsdelivr.net/gh/tutts/google-sites-markdown/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tutts/google-sites-markdown/index.js"></script>
 
 <script>
 markdown`
-# Hello world
+# Superheroes
 
 Look I can write Markdown in Google Sites!
 
-> Can I now add tables?
+> Are tables now possible?
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+- [X] Yep!
+- [ ] No
 
-Hooray! 🎉
+## Hero Table
+
+| ID    | Name           | Hero         |
+| ------- | ------------------- | ---------------- |
+| 1      | Peter Parker  | Spiderman | 
+| 2     | Bruce Wayne | Batman      |
+
+*What about lists?*
+
+- Yep
+- Hooray! 🎉
+
+### Hero Codes
+
+**How do I add code snippets inside a tempalte literal?**
+
+\`\`\`typescript
+function isTheBestHero(spiderman: string): boolean {
+  return true
+}
+
+const isSpidermanTheBestHero = isTheBestHero('spiderman')
+\`\`\`
 `
 </script> 
 ```
